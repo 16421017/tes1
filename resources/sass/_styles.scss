@@ -1,0 +1,167 @@
+body {
+    font-family: $font-family-sans-serif;
+    background-color: $body-bg;
+}
+
+.font-raleway {
+    font-family: "Raleway";
+}
+
+.navbar-brand {
+    color: $white;
+    font-family: "Raleway";
+
+    &:hover {
+        color: $white;
+    }
+}
+
+.navbar-dark {
+    background-color: $blue;
+
+    .navbar-nav {
+        .nav-link {
+            color: $white;
+        }
+    }
+}
+
+.nav-link {
+    color: $white;
+    font-family: "Raleway";
+    font-size: 16px;
+    margin-right: 20px;
+
+    &:hover {
+        font-weight: 600;
+        border-bottom: 1px solid $white;
+        color: $white;
+        transition: all ease 0.3s;
+    }
+}
+
+.nav-item.active {
+    a {
+        font-weight: 600;
+        border-bottom: 1px solid $white;
+    }
+}
+
+.bg-cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+
+    h1 {
+        font-family: "Raleway";
+        font-weight: 600;
+    }
+
+    p {
+        border-bottom: 2px solid $white;
+        padding-bottom: 1rem;
+    }
+
+    button {
+        border-radius: 1.5rem;
+    }
+}
+
+.section-about {
+    padding: 70px 0;
+    background-color: #f8f9fa;
+
+    h3 {
+        font-family: "Raleway";
+        color: #0D2442;
+        font-weight: 600;
+    }
+
+    p {
+        word-spacing: 5px;
+        letter-spacing: 2px;
+    }
+}
+
+.section-populer-beach {
+    padding: 70px 0;
+
+    h3 {
+        font-family: "Raleway";
+        color: #0D2442;
+        font-weight: 600;
+    }
+
+}
+
+.section-populer-mountain {
+    padding: 70px 0;
+    background-color: #F6F3F2;
+
+    h3 {
+        font-family: "Raleway";
+        color: #0D2442;
+        font-weight: 600;
+    }
+
+}
+
+.card {
+    margin-bottom: 30px;
+    -webkit-transition: box-shadow .2s ease-in-out;
+    transition: box-shadow .2s ease-in-out;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 5px 11px 0 rgba(69, 90, 100, .3);
+    }
+
+    h5 {
+        font-family: "Raleway";
+        font-weight: 600;
+        color: #0D2442;
+    }
+
+    p {
+        font-weight: 200;
+    }
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.text-muted {
+    color: #adb5bd !important;
+}
+
+footer {
+    padding: 70px 0;
+    background-color: #fff;
+
+    h5 {
+        font-family: "Raleway";
+    }
+
+    .text-muted {
+        font-family: "Raleway";
+        font-weight: 200;
+    }
+}
+
+.footer-socmed {
+    text-align: end;
+}
+
+.footer-socmed img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}

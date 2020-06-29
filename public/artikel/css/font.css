@@ -1,0 +1,83 @@
+body
+{
+	font-family: montserrat;
+	background-color: #f9f9f9;
+}
+
+nav
+{
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);	
+}
+
+.navbar
+{
+	background: #ffffff;
+	font-family: poppins;
+}
+
+.navbar a
+{
+	padding: 15px 0 15px 0;
+	color: #423F3F;
+
+}
+
+.banner
+{
+	width: 100%;
+	position: relative;
+}
+
+.banner img
+{
+	margin-top: -100px;
+}
+
+.banner h3, .banner p
+{
+	z-index: 99;
+	position: relative;
+	text-align: center;
+	margin-top: -25%;
+	color: #ffffff;
+	margin-bottom: 25%;
+	text-shadow: 1px 3px 10px rgba(0,0,0,0.5);
+}
+
+.banner h3
+{
+	font-weight: bold;
+	font-size: 60px;
+}
+
+.banner p
+{
+	font-size: 20px;
+}
+
+.title-banner 
+{
+	z-index: 99;
+	position: relative;
+	margin-top: -75%;
+	font-size: 40px;
+	color: #ffffff;
+}
+
+.nav-link:hover
+{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.pantai, .gunung, .blog
+{
+	margin-top: -50px;
+}
+
+
+
+.card:hover
+{
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
